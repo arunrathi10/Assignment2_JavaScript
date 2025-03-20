@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         // calculating price based on fruit, topping, size, glasses
-        const basePrice = size = "small" ? 3.0 : size = "large" ? 6.0 : 4.5,
+        const basePrice = size === "small" ? 3.0 : size === "large" ? 6.0 : 4.5,
         pricePerGlass = basePrice + (fruits.length * 0.5) + (toppings.length * 0.75),
         totalPrice = (glasses * pricePerGlass).toFixed(2);
 
