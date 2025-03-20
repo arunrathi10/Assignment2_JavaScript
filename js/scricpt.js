@@ -14,6 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
           size = document.getElementById("size").value,
           sugars = document.getElementById("sugars").value,
           glasses = parseInt(document.getElementById("glasses").value) || 1;
+          
+          if (!firstName || !lastName || !address || !phone) {
+            alert("Please fill out all required fields.");
+            return;
+          }
+
+
 
         });
           
