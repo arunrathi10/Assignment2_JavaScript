@@ -32,6 +32,18 @@ document.addEventListener("DOMContentLoaded", () => {
         pricePerGlass = basePrice + (fruits.length * 0.5) + (toppings.length * 0.75),
         totalPrice = (glasses * pricePerGlass).toFixed(2);
 
+        // this portion is done by "fayzadiwan". Her Github was not working
+        document.getElementById("orderName").textContent = `${firstName} ${lastName}`;
+        document.getElementById("orderAddress").textContent = address;
+        document.getElementById("orderPhone").textContent = phone;
+        document.getElementById("orderSize").textContent = size;
+        document.getElementById("orderFruits").textContent = fruits.length ? fruits.join(", ") : "None";
+        document.getElementById("orderToppings").textContent = toppings.length ? toppings.join(", ") : "None";
+        document.getElementById("orderSugars").textContent = sugars;
+        document.getElementById("orderGlasses").textContent = glasses;
+        document.getElementById("orderPrice").textContent = totalPrice;
+
+
 
 
         });
