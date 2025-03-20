@@ -45,10 +45,21 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("orderGlasses").textContent = glasses;
         document.getElementById("orderPrice").textContent = totalPrice;
 
+        // this portion is done by "fayzadiwan". Her Github was not working
+        // this portion is done by "fayzadiwan". Her Github was not working
+        // this portion is done by "fayzadiwan". Her Github was not working
         orderForm.classList.add("hidden");
         orderConfirmation.classList.remove("hidden");
         orderForm.reset();
         });
-          
+
+        // this portion is done by "fayzadiwan". Her Github was not working
+        // this portion is done by "fayzadiwan". Her Github was not working
+        // this portion is done by "fayzadiwan". Her Github was not working
+        newOrderButton.addEventListener("click", () => {
+          orderConfirmation.classList.add("hidden");
+          orderForm.classList.remove("hidden");
+        });
+
   });
   
