@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #000; 
+    margin: 0;
+    padding: 20px;
+    color: #fff; 
+  }
+  
+  h1 {
+    text-align: center;
+    color: #FFD700; 
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background: #1a1a1a;
+    padding: 30px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3); 
+    border: 1px solid #FFD700;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  #prices {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    border: 1px solid #FFD700;
+    text-align: center;
+  }
+  
+  #prices h2 {
+    color: #FFD700;
+    margin-bottom: 15px;
+  }
+  
+  #prices ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #prices li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #FFD700; 
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  textarea,
+  select,
+  input[type="number"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #FFD700;
+    border-radius: 4px;
+    font-size: 16px;
+    background: #333;
+    color: #fff;
+  }
+  
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  textarea:focus,
+  select:focus,
+  input[type="number"]:focus {
+    border-color: #FFD700;
+    outline: none;
+    background: #444;
+  }
+  
+  fieldset {
+    border: 1px solid #FFD700;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  
+  legend {
+    font-weight: 600;
+    color: #FFD700;
+    padding: 0 10px;
+  }
+  
+  button {
+    background: #FFD700;
+    color: #000;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background: #e6c200; 
+  }
+  
+  button:active {
+    background: #ccac00;
+  }
+  
+  #orderConfirmation {
+    background: #1a1a1a;
+    border: 1px solid #FFD700;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 8px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+  }
+  
+  .hidden {
+    display: none;
+  }
