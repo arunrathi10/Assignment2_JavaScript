@@ -62,4 +62,15 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
   });
+
+  /*
+  Attribution:-----
+  All used sources in this Assignment
+  https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+  https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
+  https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+  https://www.w3schools.com/jsref/jsref_push.asp
+
+  and weekly learning content
+  */
   
