@@ -33,6 +33,8 @@ document.addEventListener("DOMContentLoaded", () => {
         totalPrice = (glasses * pricePerGlass).toFixed(2);
 
         // this portion is done by "fayzadiwan". Her Github was not working
+        // this portion is done by "fayzadiwan". Her Github was not working
+        // this portion is done by "fayzadiwan". Her Github was not working
         document.getElementById("orderName").textContent = `${firstName} ${lastName}`;
         document.getElementById("orderAddress").textContent = address;
         document.getElementById("orderPhone").textContent = phone;
@@ -43,9 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("orderGlasses").textContent = glasses;
         document.getElementById("orderPrice").textContent = totalPrice;
 
-
-
-
+        orderForm.classList.add("hidden");
+        orderConfirmation.classList.remove("hidden");
+        orderForm.reset();
         });
           
   });
